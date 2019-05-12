@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World from Flask in a uWSGI Nginx Docker container with \
-     Python 3.7 (from the example template)"
+    return "cap demo deployment version:1.0.0"
 
 
 if __name__ == "__main__":
