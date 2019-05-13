@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "cap demo deployment version:1.0.0"
+    return "cap demo deployment version:1.0.1"
 
 
 if __name__ == "__main__":
